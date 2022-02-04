@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    color: white;
+    margin: 0;
+    font-family: 'MiFuente';
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url("../fonts/harper.ttf");
+  }
+
+header{
+    display: flex;
+    height: 30px;
+    color: white;
+    background-color: #0c7880;
+    justify-content: space-between;
+    font-family: 'MiFuente';
+}
+
+.header{
+    height: 30px;
+    border: none;
+    background-color: #0c7880;
+    color: white;
+}
+
+.header:hover{
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #0a6268;
+}
+
+.dropbtn {
+    background-color: #0c7880;
+    color: white;
+    border: none;
+    clear: both;
+    height: 30px;
+    font-family: 'MiFuente';
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    justify-content: space-between;
+    display: none;
+    position: absolute;
+    background-color: #0c7880;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    justify-content: space-between;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0a6268;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+    background-color: #0a6268;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0a6268;
+    border-radius: 3px;
+}
+
+
+.agrupado{
+    display: flex;
+    align-content: flex-start;
+}
+
+.section{
+    height: 30%;
+    border: #9e9fa0 3px solid;
+    border-radius: 3px;
+    background-color: #0c78807a;
+    margin: 3px;
+    text-align:center;
+}
+
+aside{
+    width: 40%;
+    border: #9e9fa0 3px solid;
+    background-color: #0c78807a;
+    margin:1px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.article{
+    border: #9e9fa0 3px solid;
+    background-color: #0c78807a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.presio{
+    border: #9e9fa0 3px solid;
+    background-color: #0c78807a;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+.video{
+    border: #9e9fa0 3px solid;
+    background-color: #0c78807a;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+textarea{
+    resize: none;
+}
+
+.comentario{
+    border: #9e9fa0 3px solid;
+    text-align: center;
+    background-color: #0c78807a;
+    border-radius: 3px;
+}
+
+table{
+    margin: 4px;
+}
+
+.video{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #02181a;
+    height: 60px;
+}
+
+.wiki_link{
+    background-color: #02181a;
+    border: none;
+    color: white;
+    font-size: 40px;
+}
+
+.formulario.boton{
+    background-color: #9e9fa0;
+    color: white;
+}
+
